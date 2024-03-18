@@ -1,0 +1,1581 @@
+* {
+    padding: 0;
+    margin: 0;}
+
+body {
+    overflow-x: hidden;
+}
+
+.icon {
+    overflow : hidden ;
+}
+
+
+.navbar-all {
+    overflow: hidden;
+    margin-top: 20px;
+  }
+  
+  /* Hide the links inside the navigation menu (except for logo/home) */
+  .navbar-all #myLinks {
+    display: none;
+  }
+  
+
+
+
+
+
+
+
+    .navbar-items {
+        background: #0A0A0B;
+        height: 130px;
+    }
+    .navbar-all {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .navbar-logo {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+    }
+
+    .navbar-logo p {
+        font-family: 'Exo';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 140%;
+        color: #FFFFFF;
+        margin-bottom: 0px;
+        padding-left: 5px;
+    }
+    .navbar-list ul {
+        display: flex;
+        justify-content: space-around;
+        width: 500px;
+        align-items: center;
+        margin-bottom: 0px;
+    }
+
+    .navbar-list ul li {
+        font-family: 'Exo';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        color: #FFFFFF;
+        list-style: none;
+    }
+
+    .navbar-list ul li:hover {
+        font-family: 'Exo';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 140%;
+        color: #4177DC;
+        text-shadow: 0px 0px 32px #346DDA;
+        cursor: pointer;
+    }
+
+    /* FORM */
+    /* Bordered form */
+form {
+    border: 3px solid #0A0A0B;
+    background: #0A0A0B;
+    color: #fff;
+  }
+  
+  /* Full-width inputs */
+  input[type=text], input[type=password], input[type=email], input[type=number] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    
+  }
+  
+  /* Set a style for all buttons */
+  button {
+    background-color: #346DDA;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  /* Add a hover effect for buttons */
+  button:hover {
+    opacity: 0.8;
+  }
+  
+  
+  /* Add padding to containers */
+  .container {
+    padding: 16px;
+  }
+  
+  /* The "Forgot password" text */
+  span.psw {
+    float: right;
+    padding-top: 16px;
+  }
+  
+  /* Change styles for span and cancel button on extra small screens */
+  @media screen and (max-width: 300px) {
+    span.psw {
+      display: block;
+      float: none;
+    }
+    .cancelbtn {
+      width: 100%;
+    }
+  }
+
+    /* Showcase Section */
+
+    .showcase-items {
+        background: #0A0A0B;
+    }
+
+    .Best-car {
+        text-align: center;
+    }
+
+    .title-showcase {
+        margin-bottom: 50px;
+    }
+
+    .title-showcase h1 {
+        font-family: 'Exo';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 36px;
+        line-height: 140%;
+        color: #FFFFFF;
+        margin-bottom: 20px;
+    }
+
+    .title-showcase h3 {
+        font-family: 'Exo';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 140%;
+        color: #FFFFFF;
+    }
+
+    .title-showcase p {
+        font-family: 'Exo';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 140%;
+        color: #BABEC4;
+    }
+
+    .mission-e-img {
+        margin-bottom: 50px;
+    }
+
+    .stats {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .temp-stats h3 {
+        font-family: 'Exo';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 140%;
+        color: #FFFFFF;
+    }
+
+    .temp-stats p {
+        font-family: 'Exo';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 140%;
+        color: #888B91;
+    }
+
+    .mileage-stats h3 {
+        font-family: 'Exo';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 140%;
+        color: #FFFFFF;
+    }
+
+    .mileage-stats p {
+        font-family: 'Exo';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 140%;
+        color: #888B91;
+    }
+
+    .battery-stats h3 {
+        font-family: 'Exo';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 140%;
+        color: #FFFFFF;
+    }
+
+    .battery-stats p {
+        font-family: 'Exo';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 140%;
+        color: #888B91;
+    }
+
+    .start button {
+        background: #0A0A0B;
+        border: none;
+        margin-top: 20px;
+    }
+
+    /* Future Machines Section */
+
+    .future-machines-items {
+        background: #0A0A0B ;
+        padding-top: 75px;
+    }
+
+    .all-future-machines-items {
+        display: flex;
+        width: 90%;
+    }
+
+    .superchargers {
+        background: rgba(255, 255, 255, 0.1);
+        backdrop-filter: blur(8px);
+        border-radius: 20px;
+        width: 197px;
+        height: 104px;
+        position: relative;
+        left: 285px;
+        bottom: 65px;
+    }
+
+    .tech-machines {
+        position: relative;
+        left: 50px;
+    }
+
+    .superchargers h5 {
+        font-family: 'Exo';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 140%;
+        color: #FFFFFF;
+        text-align: center;
+        padding-top: 13px;
+    }
+
+    .superchargers p {
+        font-family: 'Exo';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 140%;
+        color: #FFFFFF;
+        text-align: center;
+    }
+
+    .machines-future {
+        margin-top: 40px;
+    }
+
+    .machines-future h2{
+        font-family: 'Exo';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 140%;
+        color: #F1F2F3;
+        padding-bottom: 24px;
+    }
+
+    .machines-future p {
+        font-family: 'Exo';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 140%;
+        color: #BABEC4;
+        padding-bottom: 30px;
+        width: 480px;
+    }
+
+    .machines-button button {
+        background: #4177DC;
+        border-radius: 4px;
+        font-family: 'Exo';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 140%;
+        color: #FFFFFF;
+        width: 149px;
+        height: 50px;
+    }
+
+    .machines-button button:hover {
+        background: #fff;
+        color: #4177DC;
+        font-weight: 500;
+    }
+
+    /* Choose car section */
+
+
+     .choose-car-items {
+        background: #0A0A0B;
+    }
+
+    .choose-title h5 {
+        font-family: 'Exo';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 140%;
+        text-align: center;
+        color: #F1F2F3;
+    }
+
+    .cars-slider {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+    }
+    .porsche-1 {
+        background: #111213 url(./img/shape\ \(2\).png) no-repeat;
+        height: 328px;
+    }
+    .porsche-1-title h6{
+        font-family: 'Exo';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 140%;
+        color: #F1F2F3;
+        position: relative;
+        left: 25px;
+        top: 30px;
+    }
+
+    .porsche-1-title p {
+        font-family: 'Exo';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 140%;
+        color: #BABEC4;
+        position: relative;
+        left: 27px;
+        top: 20px;
+    }
+
+    .porsche-1-info {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        width: 300px; 
+        padding-top: 30px;
+    }
+
+    .porsche-1-info p {
+        font-family: 'Exo';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 140%;
+        color: #FFFFFF;
+    }
+
+     .porsche-1-img img {
+        position: relative;
+        top: 50%;
+        left: 55%;
+        transform: translate(-50%, 20%);
+    } 
+
+    .porsche-1-price p {
+        font-family: 'Exo';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 140%;
+        color: #FFFFFF;
+    }
+
+    .porsche-2 {
+        background: #111213 url(./img/shape\ \(2\).png) no-repeat;
+        height: 328px;
+    }
+    .porsche-2-title h6{
+        font-family: 'Exo';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 140%;
+        color: #F1F2F3;
+        position: relative;
+        left: 25px;
+        top: 30px;
+    }
+
+    .porsche-2-title p {
+        font-family: 'Exo';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 140%;
+        color: #BABEC4;
+        position: relative;
+        left: 27px;
+        top: 20px;
+    }
+ 
+    .porsche-2-img img {
+        position: relative;
+        top: 50%;
+        left: 55%;
+        transform: translate(-50%, 20%);
+    } 
+    .porsche-2-info {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        width: 300px;
+        padding-top: 30px;
+    }
+    .porsche-2-info p {
+        font-family: 'Exo';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 140%;
+        color: #FFFFFF;
+    }
+
+    .porsche-2-price p {
+        font-family: 'Exo';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 140%;
+        color: #FFFFFF;
+    }
+
+    .porsche-3 {
+        background: #111213 url(./img/shape\ \(2\).png) no-repeat;
+        height: 328px;
+    }
+    .porsche-3-title h6{
+        font-family: 'Exo';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 140%;
+        color: #F1F2F3;
+        position: relative;
+        left: 25px;
+        top: 30px;
+    }
+
+    .porsche-3-title p {
+        font-family: 'Exo';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 140%;
+        color: #BABEC4;
+        position: relative;
+        left: 27px;
+        top: 20px;
+    }
+    .porsche-3-info {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        width: 300px;
+        padding-top: 30px;
+    }
+    .porsche-3-info p {
+        font-family: 'Exo';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 140%;
+        color: #FFFFFF;
+    }
+
+    .porsche-3-img img {
+        position: relative;
+        top: 50%;
+        left: 55%;
+        transform: translate(-50%, 20%);
+    } 
+    .porsche-3-price p {
+        font-family: 'Exo';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 140%;
+        color: #FFFFFF;
+    } 
+
+    /* Features Section */
+
+    .more-features-items {
+        background: #0A0A0B;
+        padding-top: 100px;
+    }
+
+    .features-title h4 {
+        font-family: 'Exo';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 140%;
+        text-align: center;
+        color: #F1F2F3;
+        margin-bottom: 65px ;
+    }
+
+    .owl-carousel {
+        height: 300px;
+        overflow: hidden;
+    }
+
+    .all-features {
+        text-align: center;
+        background: url(./img/Roads.png) no-repeat center;
+    }
+
+    .all-features::before {
+        background: url(./img/Lake.png) no-repeat center;
+    }
+
+    .turbo {
+        background: rgba(255, 255, 255, 0.1);
+        backdrop-filter: blur(8px);
+        border-radius: 20px;
+        width: 127px;
+        height: 92px;  
+        position: relative;
+        bottom: 390px;
+        left: 480px; 
+    }
+    .turbo h6 {
+        font-family: 'Exo';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 140%;
+        color: #FFFFFF;
+        padding-top: 15px;
+    }
+    .turbo p {
+        font-family: 'Exo';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 140%;
+        text-align: center;
+        color: #F1F2F3;
+    }
+
+    .range {
+        background: rgba(255, 255, 255, 0.1);
+        backdrop-filter: blur(8px);
+        border-radius: 20px;
+        width: 127px;
+        height: 92px;   
+        position: relative;
+        bottom: 380px;
+        left: 700px;
+    }
+    .range h6 {
+        font-family: 'Exo';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 140%;
+        color: #FFFFFF;
+        padding-top: 15px;
+    }
+    .range p {
+        font-family: 'Exo';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 140%;
+        text-align: center;
+        color: #F1F2F3;
+    }
+
+    .travel {
+        background: rgba(255, 255, 255, 0.1);
+        backdrop-filter: blur(8px);
+        border-radius: 20px;    
+        width: 127px;
+        height: 92px;  
+        position: relative;
+        bottom: 370px;
+        left: 480px;   
+    }
+    .travel h6 {
+        font-family: 'Exo';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 140%;
+        color: #FFFFFF;
+        padding-top: 15px;
+    } 
+    .travel p {
+        font-family: 'Exo';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 140%;
+        text-align: center;
+        color: #F1F2F3;
+    }
+
+    /* Luxury Cars */
+
+    .luxury-cars-items {
+        background: #0A0A0B;
+    }
+
+    .luxury-featured h5 {
+        font-family: 'Exo';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 140%;
+        text-align: center;
+        color: #F1F2F3;
+    }
+
+    .featured-cars {
+        text-align: center;
+        margin-top: 50px;
+        padding-bottom: 100px;
+    }
+
+    .featured-cars button {
+        background: #4177DC;
+        border-radius: 16px;
+        width: 52px;
+        height: 52px;
+        font-family: 'Exo';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 140%;
+        color: #F1F2F3;
+    }
+
+    .log-tesla {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+
+    .log-audi {
+        padding-right: 40px;
+    }
+
+
+
+
+
+    .tesla-x {
+        text-align: center;
+        background: url(./img/shape\ \(1\).png) center no-repeat;
+        border-radius: 10px;
+    }
+    .model-x-title {
+        position: relative;
+        right: 85px;
+        top: 15px;
+        margin-bottom: 30px;
+    }
+    .model-x-title h5 {
+        font-family: 'Exo';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 140%;
+        color: #F1F2F3;
+    }
+    .model-x-title p {
+        font-family: 'Exo';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 140%;
+        color: #BABEC4;
+    }
+    .price-x {
+        position: relative;
+        right: 85px;
+    }
+    .price-x p {
+        font-family: 'Exo';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 140%;
+        color: #F1F2F3;
+    }
+    .model-x-img img {
+        margin-bottom: 20px;
+    }
+
+
+
+
+
+    .tesla-3 {
+        text-align: center;
+        background: url(./img/shape\ \(1\).png) center no-repeat;
+        border-radius: 10px;
+    }
+    .model-3-title {
+        position: relative;
+        right: 85px;
+        top: 15px;
+        margin-bottom: 30px;
+    }
+    .model-3-title h5 {
+        font-family: 'Exo';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 140%;
+        color: #F1F2F3;
+    }
+    .model-3-title p {
+        font-family: 'Exo';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 140%;
+        color: #BABEC4;
+    }
+    .price-3 {
+        position: relative;
+        right: 85px;
+    }
+    .price-3 p {
+        font-family: 'Exo';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 140%;
+        color: #F1F2F3;
+    }
+    .model-3-img img {
+        margin-bottom: 20px;
+    }
+
+
+
+
+    .e-tron {
+        text-align: center;
+        background: url(./img/shape\ \(1\).png) center no-repeat;
+        border-radius: 10px;
+    }
+    .etron-title {
+        position: relative;
+        right: 85px;
+        top: 15px;
+        margin-bottom: 30px;
+    }
+    .etron-title h5 {
+        font-family: 'Exo';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 140%;
+        color: #F1F2F3;
+    }
+    .etron-title p {
+        font-family: 'Exo';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 140%;
+        color: #BABEC4;
+    }
+    .price-etron {
+        position: relative;
+        right: 85px;
+    }
+    .price-etron p {
+        font-family: 'Exo';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 140%;
+        color: #F1F2F3;
+    }
+    .etron-img img {
+        margin-bottom: 20px;
+    }
+
+
+
+
+
+    .boxter {
+        text-align: center;
+        background: url(./img/shape\ \(1\).png) center no-repeat;
+        border-radius: 10px;
+    }
+    .boxter-title {
+        position: relative;
+        right: 85px;
+        top: 15px;
+        margin-bottom: 30px;
+    }
+    .boxter-title h5 {
+        font-family: 'Exo';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 140%;
+        color: #F1F2F3;
+    }
+    .boxter-title p {
+        font-family: 'Exo';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 140%;
+        color: #BABEC4;
+    }
+    .price-boxter {
+        position: relative;
+        right: 85px;
+    }
+    .price-boxter p {
+        font-family: 'Exo';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 140%;
+        color: #F1F2F3;
+    }
+    .boxter-img img {
+        margin-bottom: 20px;
+    }
+
+
+
+
+    .panamera {
+        text-align: center;
+        background: url(./img/shape\ \(1\).png) center no-repeat;
+        border-radius: 10px;
+    }
+    .panamera-title {
+        position: relative;
+        right: 85px;
+        top: 15px;
+        margin-bottom: 30px;
+    }
+    .panamera-title h5 {
+        font-family: 'Exo';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 140%;
+        color: #F1F2F3;
+    }
+
+    .panamera-title p {
+        font-family: 'Exo';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 140%;
+        color: #BABEC4;
+    }
+    .price-panamera {
+        position: relative;
+        right: 85px;
+    }
+    .price-panamera p {
+        font-family: 'Exo';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 140%;
+        color: #F1F2F3;
+    }
+    .panamers-img img {
+        margin-bottom: 20px;
+    }
+
+
+
+
+
+    /* Special Offers */
+
+    .special-offers-items {
+        background: #0A0A0B;
+        padding-top: 150px;
+    }
+
+    .porsche-image {
+        text-align: center;
+    }
+
+    .recieve-offers {
+        text-align: center;
+    }
+
+    .recieve-offers-title h3 {
+        font-family: 'Exo';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 140%;
+        color: #F1F2F3;
+    }
+
+    .recieve-offers-title p {
+        font-family: 'Exo';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 140%;
+        color: #BABEC4;
+        max-width: 300px;
+        height: 66px;
+        position: relative;
+        left: 92px;
+        margin-bottom: 15px;
+        margin-top: 30px;
+    } 
+
+
+    .offers-button button {
+        background: #4177DC;
+        border-radius: 4px;
+        color: #f1f2f3;
+        width: 174px;
+        height: 50px;
+        font-family: "Exo";
+    }
+
+    .offers-button button:hover {
+        background: #F1F2F3;
+        color: #4177DC;
+        font-weight: 400;
+    }
+
+    /* Logos Section */
+
+    .logos-items {
+        background: #0A0A0B;
+        padding-top: 100px;
+        padding-bottom: 50px;
+    }
+
+    .all-logos {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+
+    .logos-first-part {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .logos-second-part {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+
+
+
+
+
+    /* Footer Section */
+    .footer-items {
+        background: #0A0A0B;
+        padding-bottom: 20px;
+    }
+
+    .all-footer {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 50px;
+        margin-bottom: 100px;
+    }
+
+    .main-footer h6 {
+        font-family: 'Exo';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 140%;
+        color: #FFFFFF;
+        position: relative;
+        left: 23px;
+        bottom: 24px;
+    }
+
+    .main-footer p {
+        font-family: 'Exo';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 140%;
+        color: #BABEC4;
+        position: relative;
+        bottom: 10px;
+        width: 200px;
+    }
+
+    .title-company h6 {
+        text-align: center;
+    }
+    .title-company h6  {
+        font-family: 'Exo';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 140%;
+        color: #F1F2F3;
+        margin-bottom: 24px;
+    }
+
+    .company ul li {
+        font-family: 'Exo';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 140%;
+        color: #BABEC4;
+        margin-bottom: 12px;
+    }
+
+    .company ul {
+        list-style: none;
+        position: relative;
+        left: 87px;
+    }
+
+    .title-info {
+        text-align: center;
+    }
+
+    .title-info h6  {
+        font-family: 'Exo';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 140%;
+        color: #F1F2F3;
+        margin-bottom: 24px;
+    }
+
+    .information ul {
+        list-style: none;
+        position: relative;
+        left: 76px;
+    }
+
+    .information ul li {
+        font-family: 'Exo';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 140%;
+        color: #BABEC4;
+        margin-bottom: 12px;
+    }
+
+
+    .follow-us {
+        text-align: center;
+    }
+
+    .follow-title {
+        text-align: center;
+    }
+
+    .follow-title h6  {
+        font-family: 'Exo';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 140%;
+        color: #F1F2F3;
+        margin-bottom: 24px;
+    }
+
+
+    .socials-footer {
+        position: relative;
+        left: 15px;
+    }
+
+    .socials-footer a {
+        background: #0A0A0B;
+        color: #BABEC4;
+        border: none;
+        margin-right: 25px;   
+    }
+
+    .last-text p {
+        text-align: center;
+        font-family: 'Exo';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 140%;
+        color: #888B91;
+    }
+
+
+ 
+    .hamburger {
+        background: #fff;
+        width: 20px;
+        height: 20px;
+        display: none;
+    }
+
+/*  Phones */
+
+@media(max-width: 576px){
+
+
+    .hamburger {
+        display: block;
+    }
+    .toggle-button.collapsed {
+        color: #fff;
+    }
+    .navbar-list {
+        display: block;
+    }
+    .navbar-list.active {
+        background-color: #fff;
+    }
+
+    .all-future-machines-items {
+        display: block;
+    }
+
+    .future-info {
+        left: 0px;
+    }
+
+    .superchargers {
+        position: relative;
+        left: 260px;
+        bottom: 65px;
+    }
+
+    .tech-machines {
+        left: 0px;
+        margin-bottom: 50px;
+    }
+    .machines-future p {
+        width: 365px;
+    }
+
+
+    .more-features-items {
+        padding-top: 30px;
+    }
+
+
+    .turbo {
+        left: 40px;
+    }
+    .range {
+        left: 290px
+    }
+    .travel {
+        left: 45px;
+    }
+
+
+    .tesla-x {
+
+        margin-bottom: 20px;
+    }
+    .tesla-3 {
+        margin-bottom: 20px;
+    }
+    .boxter {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .panamera {
+        margin-bottom: 20px;
+    }
+
+
+
+    .special-offers-items {
+        padding-top: 50px;
+    }
+
+
+    .recieve-offers p {
+        width: 300px;
+        overflow: hidden;
+        margin-bottom: 30px;
+    }
+
+    .porsche-image img {
+        margin-top: 50px;
+    }
+
+    .all-logos {
+        display: block;
+    }
+
+    .logos-second-part {
+        margin-top: 40px;
+    }
+
+    .all-footer {
+        display: block;
+    }
+
+    .title-company h6 {
+        text-align: start;
+    }
+
+    .company {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .company ul {
+        text-align: start;
+        left: 0px;
+        padding-left: 0px;
+    }
+
+    .title-info {
+        text-align: start;
+    }
+
+    .information {
+        margin-bottom: 10px;
+    }
+
+    .information ul {
+        text-align: start;
+        left: 0px;
+        padding-left: 0px;
+    }
+
+    .follow-title {
+        text-align: start;
+    }
+
+    .socials-footer {
+        text-align: start;
+        left: 0px;
+    }
+
+
+}   
+
+
+@media (max-width: 768px){
+
+        .hamburger {
+            display: block;
+        }
+        .toggle-button.active {
+            color: #fff;
+        }
+        .navbar-list {
+            display: none;
+        }
+        .navbar-list.active {
+            background-color: #fff;
+        }
+
+        .turbo {
+            left: 40px;
+        }
+        .range {
+            left: 290px
+        }
+        .travel {
+            left: 45px;
+        }
+
+        .all-future-machines-items {
+            display: block;
+        }
+
+        .tech-machines {
+            margin-bottom: 50px;
+        }
+        .e-tron {
+            text-align: center;
+        }
+        .porsche-image img {
+            margin-top: 50px;
+        }
+        .all-logos {
+            display: block;
+        }
+
+        .logos-second-part {
+            margin-top: 40px;
+        }
+
+        .porsche-image img {
+            margin-top: 50px;
+        }
+        .all-footer {
+            display: block;
+        }
+        .title-company h6 {
+            text-align: start;
+        }
+    
+        .company {
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+        .company ul {
+            text-align: start;
+            left: 0px;
+            padding-left: 0px;
+        }
+    
+        .title-info {
+            text-align: start;
+        }
+    
+        .information {
+            margin-bottom: 10px;
+        }
+    
+        .information ul {
+            text-align: start;
+            left: 0px;
+            padding-left: 0px;
+        }
+    
+        .follow-title {
+            text-align: start;
+        }
+    
+        .socials-footer {
+            text-align: start;
+            left: 0px;
+        }
+}
+
+@media (max-width : 768px), (max-width: 992px) {
+    .all-future-machines-items {
+        display: block;
+    }
+
+    .tech-machines {
+        margin-bottom: 50px;
+    }
+    .e-tron {
+        text-align: center;
+    }
+    .porsche-image img {
+        margin-top: 50px;
+    }
+    .all-logos {
+        display: block;
+    }
+
+    .logos-second-part {
+        margin-top: 40px;
+    }
+
+    .porsche-image img {
+        margin-top: 50px;
+    }
+    .all-footer {
+        display: block;
+    }
+    .title-company h6 {
+        text-align: start;
+    }
+
+    .company {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .company ul {
+        text-align: start;
+        left: 0px;
+        padding-left: 0px;
+    }
+
+    .title-info {
+        text-align: start;
+    }
+
+    .information {
+        margin-bottom: 10px;
+    }
+
+    .information ul {
+        text-align: start;
+        left: 0px;
+        padding-left: 0px;
+    }
+
+    .follow-title {
+        text-align: start;
+    }
+
+    .socials-footer {
+        text-align: start;
+        left: 0px;
+    }
+
+}
+
+
+
+.overlay { 
+    overflow: hidden;
+
+    top: 0px;
+    bottom: 0;
+    transition: all ease .6s;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    background-color: #1c2e4a;
+    transform: translateX(100%);
+    z-index: 2;
+  }
+  .active-overlay{
+    transition-delay: .3s;
+    transform: translateX(0%);
+    transition: all ease .6s;
+    z-index: 2;
+
+
+   }
+
+@media(max-width:2200px){
+
+.header-mobile{
+ display:none;
+}
+}
+
+@media(max-width:768px){
+    .tech-machines{
+        width: 95%;
+    }
+    .all-future-machines-items{
+        width: 90%;
+    }
+    .header-mobile{
+        display:block;
+        width: 100vw;
+        position: fixed;
+        top: 0px;
+        z-index: 3;
+        background-color: #0A0A0B;
+       }
+       .navbar-items{
+        display: none;
+       }
+       .navbar{
+        display: none;
+       }
+       .wraper-mob{
+        height: 40px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        display: flex;
+        justify-content: center;
+        gap: 85%;
+        align-items: center;
+        /* background-color: #0A0A0B; */
+       }
+       .showcase-items{
+        background-color: #0A0A0B;
+        padding-top: 40px;
+       }
+       .menu-mobile-btn{
+        transform: rotate(135deg);
+        transition: all 0.3s ease 0s;
+       }
+       .mobile-nav {
+            color: #eee;
+            display: flex;
+            align-items: center;
+            height: 100vh;
+            justify-content: center
+       }
+       .mobile-nav ul {
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        font-size: 50px;
+        gap: 40px;
+       }
+       /* .rotate {
+        transform: rotate(135deg); 
+        transition: ease .8s; 
+        } */
+
+        /* .owl-carousel .owl-item img {
+            display: block;
+            max-width: fit-content;
+        } */
+        .no-js .owl-carousel, .owl-carousel.owl-loaded {
+            height: auto;
+        }
+
+}
